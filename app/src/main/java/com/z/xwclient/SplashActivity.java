@@ -1,10 +1,12 @@
 package com.z.xwclient;
 
+import com.jaeger.library.StatusBarUtil;
 import com.z.xwclient.utils.Constants;
 import com.z.xwclient.utils.SharedPreferencesTool;
 import com.z.xwclient.view.CustomVideoView;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.AssetManager;
 import android.media.MediaPlayer;
 import android.media.MediaPlayer.OnCompletionListener;
@@ -23,7 +25,7 @@ public class SplashActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
-
+        StatusBarUtil.setColor(this, getResources().getColor(R.color.yellow));
         //初始化ShareSDK
         //ShareSDK.initSDK(this);
 
@@ -82,10 +84,10 @@ public class SplashActivity extends Activity {
         boolean isfirstenter = SharedPreferencesTool.getBoolean(this, Constants.ISFIRSTENTER, true);
         if (isfirstenter) {
             //第一次进入跳转到引导界面
-            //startActivity(new Intent(this,GuideActivity.class));
+            startActivity(new Intent(this,GuideActivity.class));
         }else{
             //不是第一次进入跳转到首页
-            //startActivity(new Intent(this,HomeActivity.class));
+            startActivity(new Intent(this,HomeActivity.class));
         }
 
         finish();

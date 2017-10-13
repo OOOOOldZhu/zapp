@@ -17,6 +17,8 @@ import android.view.View;
 
 import java.io.InputStream;
 
+import cn.sharesdk.framework.ShareSDK;
+
 public class SplashActivity extends Activity {
     String TAG="program";
     private CustomVideoView mVideoView;

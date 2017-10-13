@@ -7,6 +7,11 @@ import android.widget.RadioGroup.OnCheckedChangeListener;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.z.xwclient.R;
 import com.z.xwclient.base.BaseFragment;
+import com.z.xwclient.fragment_parent.GovFragment;
+import com.z.xwclient.fragment_parent.HomeFragment;
+import com.z.xwclient.fragment_parent.NewsCenterFragment;
+import com.z.xwclient.fragment_parent.SettingFragment;
+import com.z.xwclient.fragment_parent.VideoFragment;
 
 public class ContentFragment extends BaseFragment {
 
@@ -25,7 +30,7 @@ public class ContentFragment extends BaseFragment {
 	@Override
 	public void initData() {
 
-		/*mButtons = (RadioGroup) view
+		mButtons = (RadioGroup) view
 				.findViewById(R.id.contentfragment_rg_buttons);
 
 		// 在内容展示界面，展示RadioButton按钮对应的Fragment界面
@@ -106,7 +111,7 @@ public class ContentFragment extends BaseFragment {
 					break;
 				}
 			}
-		});*/
+		});
 	}
 	
 	/**

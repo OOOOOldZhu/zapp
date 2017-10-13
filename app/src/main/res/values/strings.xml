@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">xwclient</string>
+    <string name="share">分享的标题</string>
 </resources>

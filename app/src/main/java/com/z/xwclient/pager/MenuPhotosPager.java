@@ -12,16 +12,14 @@ import okhttp3.Response;
 import com.google.gson.Gson;
 import com.z.xwclient.R;
 import com.z.xwclient.base.BaseMenuPager;
-import com.z.xwclient.bean.NetUrl;
+import com.z.xwclient.utils.NetUrl;
 import com.z.xwclient.bean.PhotosBean;
 import com.z.xwclient.utils.Constants;
 import com.z.xwclient.utils.MyBitMapTool;
 import com.z.xwclient.utils.SharedPreferencesTool;
 
 import android.app.Activity;
-import android.graphics.Color;
 import android.text.TextUtils;
-import android.view.Gravity;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.view.ViewGroup;

@@ -1,7 +1,6 @@
 package com.z.xwclient.pager.item;
 
 import java.io.IOException;
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,9 +13,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Handler;
-import android.sax.StartElementListener;
 import android.support.v4.view.PagerAdapter;
-import android.support.v4.view.ViewPager;
 import android.support.v4.view.ViewPager.OnPageChangeListener;
 import android.text.TextUtils;
 import android.view.MotionEvent;
@@ -41,7 +38,7 @@ import com.viewpagerindicator.CirclePageIndicator;
 import com.z.xwclient.NewsDetailActivity;
 import com.z.xwclient.R;
 import com.z.xwclient.base.BaseMenuPager;
-import com.z.xwclient.bean.NetUrl;
+import com.z.xwclient.utils.NetUrl;
 import com.z.xwclient.bean.NewBean;
 import com.z.xwclient.utils.Constants;
 import com.z.xwclient.utils.SharedPreferencesTool;

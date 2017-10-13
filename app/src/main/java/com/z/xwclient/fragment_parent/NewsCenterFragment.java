@@ -14,17 +14,14 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import android.graphics.Color;
 import android.text.TextUtils;
-import android.view.Gravity;
 import android.view.View;
-import android.widget.TextView;
 
 import com.google.gson.Gson;
 import com.z.xwclient.base.BaseMenuPager;
 import com.z.xwclient.base.BasePagerFragment;
 import com.z.xwclient.bean.EventBusInfo;
-import com.z.xwclient.bean.NetUrl;
+import com.z.xwclient.utils.NetUrl;
 import com.z.xwclient.bean.NewsCenterInfo;
 import com.z.xwclient.pager.MenuActionPager;
 import com.z.xwclient.pager.MenuNewsCenterPager;

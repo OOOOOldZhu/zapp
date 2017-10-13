@@ -12,6 +12,8 @@ import com.jaeger.library.StatusBarUtil;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
 
+import org.greenrobot.eventbus.EventBus;
+
 public class HomeActivity extends SlidingFragmentActivity {
 
     @Override

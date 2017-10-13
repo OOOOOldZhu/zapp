@@ -32,4 +32,5 @@ dependencies {
     implementation project(':ViewPagerIndicator_library')
     implementation project(':SlidingMenu_library')
     implementation project(':pullto_library')
+    implementation 'com.google.code.gson:gson:2.8.2'
 }

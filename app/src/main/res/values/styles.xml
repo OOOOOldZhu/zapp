@@ -1,11 +1,73 @@
 <resources>
 
-    <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
     </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <!--
+    	contentFragment的RaidoButton的样式
+    	<RadioButton
+            android:id="@+id/contentfragment_rbtn_home"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="首页"
+            android:textColor="@color/selector_contentfragment_rbtn_textcolor"
+            android:button="@null"
+            android:drawableTop="@drawable/selector_contentfragment_home"
+            android:gravity="center_horizontal"
+            android:drawablePadding="3dp"
+            android:padding="5dp"
+             />
+
+     -->
+    <!-- 设置权重的时候宽度是0dp，平均分配宽度，如果宽度是wrap_content，根据控件的实际显示内容来分配宽度 -->
+    <style name="ContentFragmentRadioButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textColor">@color/selector_contentfragment_rbtn_textcolor</item>
+        <item name="android:button">@null</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:drawablePadding">3dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 </resources>

@@ -1,4 +1,10 @@
 <resources>
     <string name="app_name">xwclient</string>
     <string name="share">分享的标题</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_guide">GuideActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_activity_news_detail">NewsDetailActivity</string>
+    <string name="title_activity_collection">CollectionActivity</string>
+    <string name="title_activity_select_item">SelectItemActivity</string>
 </resources>

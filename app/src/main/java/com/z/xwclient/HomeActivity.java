@@ -11,6 +11,8 @@ import android.view.WindowManager;
 import com.jaeger.library.StatusBarUtil;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 import com.jeremyfeinstein.slidingmenu.lib.app.SlidingFragmentActivity;
+import com.z.xwclient.fragment_grandfather.ContentFragment;
+import com.z.xwclient.fragment_grandfather.MenuFragment;
 
 import org.greenrobot.eventbus.EventBus;
 
@@ -78,8 +80,8 @@ public class HomeActivity extends SlidingFragmentActivity {
         // 参数1：fragment添加到容器的id
         // 参数2：添加的Fragment
         // 参数3：添加的Fragment的标示，方便后期根据标示找到添加的Fragment
-       // beginTransaction.replace(R.id.home_root, new ContentFragment(),"CONTENT");
-       // beginTransaction.replace(R.id.menu_root, new MenuFragment(), "MENU");
+       beginTransaction.replace(R.id.home_root, new ContentFragment(),"CONTENT");
+       beginTransaction.replace(R.id.menu_root, new MenuFragment(), "MENU");
         // 4.提供事务，执行完添加操作
         beginTransaction.commit();
 

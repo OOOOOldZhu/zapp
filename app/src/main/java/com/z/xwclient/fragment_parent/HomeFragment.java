@@ -18,7 +18,6 @@ public class HomeFragment extends BasePagerFragment {
 		// TODO Auto-generated method stub
 		return super.initView();
 	}
-	
 	@Override
 	public void initData() {
 		//加载数据，通过父类控件展示

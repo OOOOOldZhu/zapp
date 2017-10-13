@@ -1,0 +1,52 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SelectItemActivity"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    >
+
+    <ImageView
+        android:id="@+id/select_activity_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select_item_back"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        />
+    <!-- columnCount : 控制显示列数 -->
+    <com.z.xwclient.view.MyGridLayout
+        android:id="@+id/selectitem_mgl_gridlayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_gravity="center_horizontal"
+        >
+    </com.z.xwclient.view.MyGridLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="点击选择频道"
+        android:textColor="#FFFFFF"
+        android:background="@android:color/darker_gray"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <!-- columnCount : 控制显示列数 -->
+    <com.z.xwclient.view.MyGridLayout
+        android:id="@+id/selectitem_mgl_gridlayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_gravity="center_horizontal"
+        >
+    </com.z.xwclient.view.MyGridLayout>
+
+</LinearLayout>

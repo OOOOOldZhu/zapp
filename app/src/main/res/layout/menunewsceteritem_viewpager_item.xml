@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/item_iv_icon"
+    android:src="@drawable/topnews_item_default"
+    android:background="@drawable/topnews_item_default"
+    android:scaleType="centerCrop"
+    >
+    
+    <!-- 
+    	scaleType : 设置图片的显示类型
+    		centerCrop ： 将图片放大/缩小，显示在imageView中，直到填充满整个imageView
+     -->
+
+</ImageView>

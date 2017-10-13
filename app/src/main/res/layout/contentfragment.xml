@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout 
+        android:id="@+id/contentfragment_fra_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/contentfragment_rg_buttons"
+        ></FrameLayout>
+    
+    <RadioGroup
+        android:id="@+id/contentfragment_rg_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:background="@drawable/bottom_tab_bg"
+        android:gravity="center_vertical"
+         >
+
+        <!-- button : 设置选中按钮的样式  @null：不使用按钮 -->
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_home"
+            android:text="首页"
+            android:drawableTop="@drawable/selector_contentfragment_home"
+            style="@style/ContentFragmentRadioButtonStyle"
+             />
+
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_newscenter"
+            style="@style/ContentFragmentRadioButtonStyle"
+            android:drawableTop="@drawable/selector_contentfragment_newscenter"
+            android:text="新闻中心" />
+
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_video"
+            style="@style/ContentFragmentRadioButtonStyle"
+            android:drawableTop="@drawable/selector_contentfragment_video"
+            android:text="视频" />
+        
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_gov"
+            style="@style/ContentFragmentRadioButtonStyle"
+            android:drawableTop="@drawable/selector_contentfragment_gov"
+            android:text="政务" />
+        
+        <RadioButton
+            android:id="@+id/contentfragment_rbtn_setting"
+            style="@style/ContentFragmentRadioButtonStyle"
+            android:drawableTop="@drawable/selector_contentfragment_setting"
+            android:text="设置" />
+        
+       
+    </RadioGroup>
+
+</RelativeLayout>

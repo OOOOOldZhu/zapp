@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" 
+    android:padding="8dp"
+    >
+    
+    <ImageView 
+        android:id="@+id/item_iv_icon"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:src="@drawable/news_pic_default"
+        android:background="#000000"
+        android:padding="1dp"
+        android:scaleType="fitXY"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        />
+    
+    <!-- fitXY : 拉伸图片，填充满整个imageview -->
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/item_iv_icon"
+        android:layout_centerVertical="true"
+        >
+        <!-- maxLines : 控制最多显示两行 -->
+        <TextView 
+            android:id="@+id/item_tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="三打两建阿萨德来房间爱死了的风景爱上了对方就爱上了对方阿斯蒂芬啊"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:maxLines="2"
+            />
+        <TextView 
+            android:id="@+id/item_tv_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2019-12-14 11:57:00"
+            android:textSize="16sp"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg_menu"
+    >
+    <!-- android:divider="@null" : 去除分割线 
+         android:listSelector : 设置选中条目的样式
+    -->
+    <ListView 
+        android:id="@+id/menu_lv_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:divider="@null"
+        android:listSelector="@android:color/transparent"
+        ></ListView>
+
+</LinearLayout>

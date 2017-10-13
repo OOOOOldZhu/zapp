@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/viewpagerheight" >
+    
+    <!-- xmlns:app="http://schemas.android.com/apk/res/com.itheima.zhbj97" -->
+    
+    <com.z.xwclient.view.RoolViewPager
+        android:id="@+id/menunewscenteritem_vp_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/viewpagerheight"
+        ></com.z.xwclient.view.RoolViewPager>
+	<!-- layout_alignBottom ： 在哪个控件的底部 -->
+    <RelativeLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:background="#aa000000"
+        android:layout_alignBottom="@+id/menunewscenteritem_vp_viewpager"
+        >
+        <TextView 
+            android:id="@+id/menunewscenteritem_tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蜗居生活"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+         <!-- radius : 点的半径 
+              fillColor ：点的填充颜色
+              pageColor ： 界面的点的颜色
+              strokeColor ： 边框的颜色
+              strokeWidth ： 边框的宽度
+         -->
+         <com.viewpagerindicator.CirclePageIndicator
+	        android:id="@+id/menunewscenteritem_cpi_indicator"
+	        android:padding="10dip"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        app:radius="3dp"
+	        app:fillColor="#FF0000"
+	        app:pageColor="#FFFFFF"
+	        app:strokeWidth="0dp"
+	        android:layout_centerVertical="true"
+	        android:layout_alignParentRight="true"
+	        android:layout_marginRight="10dp"
+        />
+    </RelativeLayout>
+    
+</RelativeLayout>

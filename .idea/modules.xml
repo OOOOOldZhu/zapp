@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/myclient.iml" filepath="$PROJECT_DIR$/myclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/xin_wen_ke_hu_duan.iml" filepath="$PROJECT_DIR$/xin_wen_ke_hu_duan.iml" />
     </modules>
   </component>
 </project>

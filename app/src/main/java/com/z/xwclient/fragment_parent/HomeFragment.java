@@ -21,7 +21,6 @@ public class HomeFragment extends BasePagerFragment {
 	
 	@Override
 	public void initData() {
-		
 		//加载数据，通过父类控件展示
 		TextView textView = new TextView(activity);
 		textView.setText("首页");

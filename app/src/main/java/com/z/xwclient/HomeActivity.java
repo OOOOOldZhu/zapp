@@ -28,7 +28,6 @@ public class HomeActivity extends SlidingFragmentActivity {
     /**
      * 添加SlidingMenu操作
      *
-     * 2016年12月11日 上午9:46:18
      */
     private void initSlidingMenu() {
         // 1.获取SlidingMenu的对象
@@ -66,7 +65,6 @@ public class HomeActivity extends SlidingFragmentActivity {
     /**
      * 添加fragment操作
      *
-     * 2016年12月11日 上午10:52:45
      */
     private void initFragment() {
         // 1.获取Fragment的管理者

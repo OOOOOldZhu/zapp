@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/SlidingMenu_library/SlidingMenu_library.iml" filepath="$PROJECT_DIR$/SlidingMenu_library/SlidingMenu_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" filepath="$PROJECT_DIR$/ViewPagerIndicator_library/ViewPagerIndicator_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/myclient.iml" filepath="$PROJECT_DIR$/myclient.iml" />
       <module fileurl="file://$PROJECT_DIR$/pullto_library/pullto_library.iml" filepath="$PROJECT_DIR$/pullto_library/pullto_library.iml" />
       <module fileurl="file://$PROJECT_DIR$/xin_wen_ke_hu_duan.iml" filepath="$PROJECT_DIR$/xin_wen_ke_hu_duan.iml" />
     </modules>

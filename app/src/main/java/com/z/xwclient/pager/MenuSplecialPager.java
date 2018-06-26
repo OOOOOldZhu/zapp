@@ -20,6 +20,7 @@ import android.widget.TextView;
  */
 public class MenuSplecialPager extends BaseMenuPager{
 
+
 	public MenuSplecialPager(Activity activity) {
 		super(activity);
 	}

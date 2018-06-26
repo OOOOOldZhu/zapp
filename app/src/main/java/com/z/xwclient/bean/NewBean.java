@@ -15,7 +15,6 @@ public class NewBean {
 		public List<TopPic> topic;
 		public List<TopNews> topnews;
 	}
-	
 	public static class News implements Serializable{
 		
 		public boolean comment;

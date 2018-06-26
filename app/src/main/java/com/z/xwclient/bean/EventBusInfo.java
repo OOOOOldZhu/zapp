@@ -7,6 +7,7 @@ public class EventBusInfo {
 
 	public int position;
 
+
 	public EventBusInfo(int position) {
 		super();
 		this.position = position;

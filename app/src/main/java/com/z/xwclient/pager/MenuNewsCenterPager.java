@@ -32,7 +32,6 @@ import android.widget.TextView;
  * 可以使用一个普通java,因为显示界面的最终操作，起始就是View.inflate加载一个布局的view对象，展示布局的view对象就可以了
  * 
  * 因为每个界面都可以显示界面加载数据，相同操作，抽取到父类
- * 
  */
 public class MenuNewsCenterPager extends BaseMenuPager{
 

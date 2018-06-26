@@ -5,8 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="@dimen/viewpagerheight" >
     
-    <!-- xmlns:app="http://schemas.android.com/apk/res/com.itheima.zhbj97" -->
-    
+
     <com.z.xwclient.view.RoolViewPager
         android:id="@+id/menunewscenteritem_vp_viewpager"
         android:layout_width="match_parent"

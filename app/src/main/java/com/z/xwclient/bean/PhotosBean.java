@@ -16,6 +16,7 @@ public class PhotosBean {
 		
 		public String title;
 		public List topic;
+
 	}
 	
 	public class PhotosItem {

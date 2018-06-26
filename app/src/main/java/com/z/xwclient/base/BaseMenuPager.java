@@ -26,7 +26,6 @@ public abstract class BaseMenuPager {
 	//父类不知道子类，要显示什么界面和加载什么数据，所以创建抽象方法，子类根据自己的特性进行实现
 	/**
 	 * 显示界面的操作
-	 *
 	 */
 	public abstract View initView();
 	/**

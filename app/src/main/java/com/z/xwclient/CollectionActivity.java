@@ -94,7 +94,7 @@ public class CollectionActivity extends AppCompatActivity {
 
     private void initData() {
         DbUtils.DaoConfig daoConfig = new DbUtils.DaoConfig(this);
-        daoConfig.setDbName("zhbj97");
+        daoConfig.setDbName("zhbj");
         //如果数据库存在，直接使用，需要注意数据库的配置一定要一致
         DbUtils dbUtils = DbUtils.create(daoConfig);
         try {

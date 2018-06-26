@@ -13,10 +13,12 @@ import java.util.List;
  */
 public class NewsCenterInfo {
 
+
 	public List<NewsCenterDataInfo> data;
 	public List<String> extend;
 	public String retcode;
-	
+
+
 	public class NewsCenterDataInfo{
 		public List<child> children;
 		public String id;

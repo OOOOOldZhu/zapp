@@ -80,7 +80,6 @@ public class BasePagerFragment extends Fragment {
 	
 	/**
 	 * 加载数据
-	 *
 	 */
 	public void initData(){
 		

@@ -16,7 +16,7 @@ import android.os.Environment;
 public class MyLocalBitMapTool {
 
 	/**缓存图片保存的目录**/
-	private static final String PATH = Environment.getExternalStorageDirectory().getAbsolutePath()+"/zhbj97_cache";
+	private static final String PATH = Environment.getExternalStorageDirectory().getAbsolutePath()+"/zhbj_cache";
 	
 	/**
 	 * 保存图片到本地

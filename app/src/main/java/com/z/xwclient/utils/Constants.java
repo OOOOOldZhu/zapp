@@ -5,6 +5,7 @@ package com.z.xwclient.utils;
  */
 public interface Constants {
 
+
 	/**是否是第一次进入的key**/
 	public static final String ISFIRSTENTER="isfirstenter";
 	/**缓存新闻中心数据的key**/

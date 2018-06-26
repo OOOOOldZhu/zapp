@@ -276,7 +276,7 @@ public class NewsDetailActivity extends AppCompatActivity implements View.OnClic
         //创建数据库的配置操作
         DbUtils.DaoConfig daoConfig = new DbUtils.DaoConfig(this);
         //设置数据库的名称
-        daoConfig.setDbName("zhbj97");
+        daoConfig.setDbName("zhbj");
         //创建数据库，获取到数据库的操作
         DbUtils dbUtils = DbUtils.create(daoConfig);
         //保存数据，可以直接保存bean对象，会自动识别bean类对象中保存的数据，并依次保存到数据库中

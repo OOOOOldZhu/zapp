@@ -52,7 +52,6 @@ public abstract class BaseFragment extends Fragment {
 	//2.因为父类，抽取到了显示界面和加载数据操作，但是父类并不知道子类要显示什么界面，加载什么数据，所以父类可以创建抽象方法，子类实现抽象方法，根据自己的特性进行相应的操作
 	/**
 	 * 显示界面
-	 *
 	 */
 	public abstract View initView();
 
